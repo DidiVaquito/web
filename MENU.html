@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnología en General</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #0a0a0a;
+            color: #00ffcc;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 0 0 15px #00ffcc;
+        }
+
+        /* Estilo de la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 40px auto;
+            background-color: #222;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 255, 204, 0.5);
+        }
+
+        th, td {
+            padding: 30px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        th {
+            background-color: #00ffcc;
+            color: #111;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #111;
+        }
+
+        td {
+            background-color: #333;
+            color: #bbb;
+            font-size: 1.1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        td img {
+            width: 120px;
+            height: 120px;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 255, 204, 0.5);
+        }
+
+        td:hover {
+            background-color: #444;
+            transform: scale(1.05);
+        }
+
+        td:hover img {
+            transform: scale(1.1);
+            box-shadow: 0 4px 20px rgba(0, 255, 204, 0.8);
+        }
+
+        /* Estilo de los enlaces */
+        .link {
+            color: #00ffcc;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .link:hover {
+            color: #ff00cc;
+            transform: scale(1.1);
+        }
+
+        /* Estilo para el footer */
+        footer {
+            background-color: #0a0a0a;
+            color: #888;
+            text-align: center;
+            padding: 25px 20px;
+            box-shadow: 0 -4px 12px rgba(0, 255, 204, 0.3);
+            position: relative;
+        }
+
+        footer a {
+            color: #00ffcc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #ff00cc;
+            text-decoration: underline;
+        }
+
+        /* Animación de fondo */
+        @keyframes glow {
+            0% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #ff00cc, 0 0 70px #ff00cc, 0 0 80px #ff00cc; }
+            50% { text-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc, 0 0 45px #ff00cc, 0 0 60px #ff00cc, 0 0 90px #ff00cc; }
+            100% { text-shadow: 0 0 20px #00ffcc, 0 0 40px #ff00cc, 0 0 60px #ff00cc, 0 0 80px #ff00cc; }
+        }
+
+        header h1 {
+            animation: glow 1.5s infinite alternate;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            th, td {
+                font-size: 0.9rem;
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 3rem;
+            }
+
+            table {
+                width: 90%;
+                margin-top: 20px;
+            }
+
+            td img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tecnología en General</h1>
+</header>
+
+<div style="padding: 20px; max-width: 1200px; margin: 0 auto;">
+    <table>
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th>Enlace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Producto 1: Smartphone -->
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\S21 ultra.jpg" alt="Smartphone"></td>
+                <td><strong>Smartphone Samsung Galaxy S21</strong></td>
+                <td>El Samsung Galaxy S21 es un smartphone de última generación con pantalla dinámica 120Hz, cámaras avanzadas y procesador rápido.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/S21.html">Más información</a></td>
+            </tr>
+            <!-- Producto 2: Auriculares Bluetooth -->
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Audifonos sony.jpg" alt="Auriculares Bluetooth"></td>
+                <td><strong>Auriculares Bluetooth Sony WH-1000XM4</strong></td>
+                <td>Los Sony WH-1000XM4 ofrecen un sonido superior y cancelación de ruido activa, perfectos para viajes y trabajo en exteriores.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/Audifonos%20.html">Más información</a></td>
+            </tr>
+            <!-- Producto 3: Dispositivo de Realidad Virtual -->
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Gafas VR.jpg" alt="Realidad Virtual"></td>
+                <td><strong>Oculus Quest 2</strong></td>
+                <td>El Oculus Quest 2 es un visor de realidad virtual independiente que ofrece experiencias inmersivas sin cables ni PC.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/Gafas%20.html">Más información</a></td>
+            </tr>
+            <!-- Producto 4: Asistente de Voz -->
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Alexa.jpg" alt="Asistente de Voz"></td>
+                <td><strong>Amazon Echo (4ta Generación)</strong></td>
+                <td>El Amazon Echo es un asistente de voz inteligente con Alexa que controla dispositivos inteligentes en tu hogar y reproduce música.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/Amazon.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+            <!-- Producto 5: Reloj Inteligente -->
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Apple wacth.png" alt="Reloj Inteligente"></td>
+                <td><strong>Apple Watch Series 7</strong></td>
+                <td>El Apple Watch Series 7 es un reloj inteligente avanzado con funciones de salud, fitness y notificaciones integradas.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/reloj%20inteligente.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+            <!-- Producto 6: Cámara de Seguridad Inteligente -->
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Camara.png"></td>
+                <td><strong>Cámara de Seguridad Nest Cam</strong></td>
+                <td>La Nest Cam ofrece monitoreo en vivo con alertas inteligentes y grabación en la nube, ideal para la seguridad del hogar.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/camara.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Dron.jpg" alt="Dron"></td>
+                <td><strong>Dron DJI Air 2S</strong></td>
+                <td>El DJI Air 2S es un dron compacto con una cámara de 5.4K, ideal para fotografía aérea profesional y grabación de videos en alta definición.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/dron.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\TV.jpg" alt="Smart TV"></td>
+                <td><strong>Smart TV LG OLED C1</strong></td>
+                <td>La LG OLED C1 es una televisión inteligente con pantalla OLED 4K, ideal para cine en casa, gaming y contenidos en alta definición.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/smarttv.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Chorme cast.jpg" alt="Dispositivo de Streaming"></td>
+                <td><strong>Chromecast con Google TV</strong></td>
+                <td>Chromecast con Google TV es un dispositivo de streaming que permite acceder a miles de aplicaciones y servicios de video en 4K HDR.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/chromecast.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+            <tr>
+                <td><img src="E:\Diseño y desarrollo web\tecnologia 2\Imagenes\Pag individuales\Foco.webp" alt="Lámpara Inteligente"></td>
+                <td><strong>Lámpara Inteligente Philips Hue</strong></td>
+                <td>La lámpara inteligente Philips Hue permite controlar la iluminación de tu hogar desde tu smartphone o por comando de voz, creando ambientes personalizados.</td>
+                <td><a href="file:///E:/Dise%C3%B1o%20y%20desarrollo%20web/tecnologia%202/lampara.html" class="link" target="_blank">Más información</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<center>
+<h1><a href="E:\Diseño y desarrollo web\tecnologia 2\Bibliografia.html" class="menu-btn">Biblografia</a></h1>
+
+
+<footer>
+    <p>&copy; 2025 Tecnología en General. Todos los derechos reservados. <br>
+    <a href="#">Política de privacidad</a> | <a href="#">Términos y condiciones</a></p>
+</footer>
+
+</body>
+</html>
+
